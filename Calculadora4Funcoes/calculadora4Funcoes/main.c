@@ -24,37 +24,37 @@ int main()
     printf("1 - para Soma, 2 - para Subtração,\n");
     printf("3 - para Multiplicação, 4 - para Divisão:\n");
     operacao =  getchar(); //Essa função pega apenas um digito do usuario
-    printf("\n\n\n");
+    printf("\n\n");
 
 
     //Recebendo os valores para a operação
     printf("Digite o primeiro valor:\n");
     scanf("%f",&numero1);
 
-    printf("Digite o primeiro valor:\n");
-    scanf("%f",&numero1);
-    printf("\n\n\n");
+    printf("Digite o segundo valor:\n");
+    scanf("%f",&numero2);
+    printf("\n\n");
 
 
     //Iniciando o switch para gerar a operação correta
     switch (operacao){
-        case 1:
+        case '1':
             resultado = numero1 + numero2;
-            printf("%f + %f = %f",numero1,numero2,resultado);
+            printf("%.2f + %.2f = %.2f",numero1,numero2,resultado);
             break;
-        case 2:
+        case '2':
             resultado = numero1 - numero2;
-            printf("%f - %f = %f",numero1,numero2,resultado);
+            printf("%.2f - %.2f = %.2f",numero1,numero2,resultado);
             break;
-        case 3:
+        case '3':
             resultado = numero1 * numero2;
-            printf("%f x %f = %f",numero1,numero2,resultado);
+            printf("%.2f x %.2f = %.2f",numero1,numero2,resultado);
             break;
-        case 4:
+        case '4':
             resultado = numero1 / numero2;
-            printf("%f / %f = %f",numero1,numero2,resultado);
+            printf("%.2f / %.2f = %.2f",numero1,numero2,resultado);
             break;
     }
 
-    printf("\n\n\n");
+    printf("\n\n");
 }
