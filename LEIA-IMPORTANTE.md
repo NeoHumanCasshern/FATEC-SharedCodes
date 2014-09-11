@@ -9,8 +9,8 @@ Peço como regra, para todos que utilizarem, postarem seus nomes na ultima sess�
 
 PROJETOS
 ========
-<b>Calculadora 4 Funções</b>: Exercicio da matéria Programação 1
-Criador: Pablo Dias
+<b>Calculadora 4 Funções</b>: Exercicio da matéria Programação 1<br />
+Criador: Pablo Dias<br />
 Colaboradores:
 
 
