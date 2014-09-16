@@ -17,6 +17,9 @@ Colaboradores:
 Criador: Pablo Dias<br />
 Colaboradores:
 
+<b>Repetição</b>: Exercicio de while da matéria Programação 1<br />
+Criador: Pablo Dias<br />
+Colaboradores:
 
 
 MEMBROS DO GRUPO
